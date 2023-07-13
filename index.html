@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./index.css">
+	<title>Memo_Picker</title>
+</head>
+<body>
+	<header>
+		<div class="head-container">
+			<img src="./images/pumpkin.png" alt="" class="pumpkin-image">
+			<div>
+				<h3>Abdulrahman Bello</h3>
+				<h2>Meme Picker</h2>
+			</div>
+		</div>
+	</header>
+	<main>
+		<h2>Select Your Current Emotion</h2>
+		<div>
+			<div class="radio-container"></div>
+			<div class="animated-container">
+				<label for="gift-only-option">Animated GIFT only</label>
+				<input 
+				type="checkbox"
+				name = "gift-only-option"
+				class="gift-only-option"
+				>
+			</div>
+			<div class = "btn-container">
+				<button class="btn">Get Image</button>
+			</div>
+		</div>
+	</main>
+            <div class="modal" id="modal">
+				<button class="close-btn" id="close-btn">X</button>
+				<div class="modal-pic">
+                     <!-- image -->
+				</div>
+			</div>
+	<script type="module" src="./index.js"></script>
+</body>
+</html>
